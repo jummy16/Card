@@ -1,0 +1,64 @@
+body{
+   background-color: hsl(233, 47%, 7%);
+}
+h1 span{
+    color:hsl(277, 64%, 61%) ;
+}
+h3 span{
+    color:hsla(0, 0%, 100%, 0.75);
+    display: block;
+    text-transform: uppercase;
+    font-size: 10px;
+    font-weight: lighter;
+}
+h1{
+    color: hsl(0, 0%, 100%);
+    margin-left: 20px;
+    width: 70%;
+}
+h3{
+    color: hsl(0, 0%, 100%);
+    display: inline-block;
+    margin: 10px 20px;
+}
+p{
+    color: hsla(0, 0%, 100%, 0.75);
+    margin: 10px 20px;
+    width: 70%;
+}
+.card{
+    background-color: hsl(244, 38%, 16%);
+    border-radius: 2%;
+    height: 350px;
+    margin: 100px auto 100px auto;
+    width: 70%;
+}
+.card-2{
+    background-color: hsl(277, 64%, 61%);
+    height: 340px;
+    width: 500px;
+    overflow: hidden;
+    position: relative;
+    top: -300px;
+    right: 0;
+}
+.card-img{
+    opacity: 0.5;
+    
+    object-fit: cover;
+    max-width: 100%;
+    max-height: auto;
+    display: block;
+}
+.card-1{
+    width: 50%;
+    padding: 30px;
+}
+.card-2{
+    position: relative;
+    bottom: 150px;
+    left: 400px;
+}
+.stat{
+    margin-top: 50px;
+}
